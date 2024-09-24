@@ -12,6 +12,7 @@ import ToDoListRedux from "./Components/ToDoListRedux";
 import { Provider } from "react-redux";
 import store from "./utils/redux-store/store";
 import Image_Slider from "./Components/Image_Slider";
+import Practice from "./Components/Practice";
 //useContext, Timers , Countdowns , Routing , Redux , why used ifee there , coding all js concepts from namste js vids
 function App() {
   const AuthenticatedDashboard = withAuth(Dashboard);
@@ -32,6 +33,10 @@ function App() {
         {
           path: "/carousel",
           element: <Image_Slider />,
+        },
+        {
+          path: "/practice",
+          element: <Practice />,
         },
       ],
     },

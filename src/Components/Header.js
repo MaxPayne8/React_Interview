@@ -23,6 +23,9 @@ const Header = () => {
         <Link to="/carousel">
           <li>Carousel</li>
         </Link>
+        <Link to="/practice">
+          <li>Practice</li>
+        </Link>
         <Link to="/hoc-comp-dashboard">
           <li>HOC_AUTH</li>
         </Link>
